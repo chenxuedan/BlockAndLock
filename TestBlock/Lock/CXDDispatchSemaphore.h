@@ -1,0 +1,19 @@
+//
+//  CXDDispatchSemaphore.h
+//  TestBlock
+//
+//  Created by xiao zude on 2019/9/27.
+//  Copyright © 2019 zxycloud. All rights reserved.
+//
+
+#import "CXDBaseLock.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface CXDDispatchSemaphore : CXDBaseLock
+
+- (void)otherTest;
+
+@end
+
+NS_ASSUME_NONNULL_END
